@@ -35,3 +35,7 @@ Accept-Ranges: bytes
 (Host Discovery) `nmap -sL $ip` No Scan. List targets only
 
 (Host Discovery) `nmap -sn 192.168.1.1/24`	Disable port scanning. Host discovery only.
+
+**Websites**
+
+`gobuster dir -u https://example.com -w ~/wordlists/shortlist.txt`
